@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;}
+
+/*--------------------PARTE SUPERIOR (CABEÇÁRIO)----------------------*/
+.fundo{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #231156;
+}
+
+.topo{
+	width:99%;
+	height:auto;
+	margin: auto;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+.logo{
+	width:350px;
+	height:90px;
+	float:left;
+	padding: 0 0 0 15px;
+	/*background-color: coral;*/
+}
+.logo img{
+	width: 400px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	margin-top: 10px;
+}
+
+
+.menu{
+	width:62.4%;
+	height:80px;
+	float:left;
+	display: flex;
+	/*background-color: darkred;*/
+}
+
+.busca{
+	margin-top: 25px;
+	width: 295px;
+	display: flex;
+	float:left;
+	/*background-color: #B97374;*/
+}
+
+ul{
+	margin-top: 0;
+	width: 250px;
+	height: 100px;
+	float:left;
+    list-style:none;
+    display:flex;
+	/*background-color: black;*/
+	/*align-content: center;*/
+	/*align-items: justify;*/
+}
+
+a{
+    color:#fff;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+li{
+	margin-left: 110px;
+	margin-top: 35px;
+    margin-right: 2px;
+	
+}
+
+form {
+	border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+
+/*-----------------PRIMEIRA PARTE LISTA DE FILMES-----------------------*/
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color: whitesmoke;    
+}
+
+.parte-um{
+	margin-top: 5px;
+	width:99%;
+	height:auto;
+	margin: auto;
+	padding: 2px 0;
+	/*background-color: orange*/
+}
+/*.banner{
+	width:1000px;
+	height:300px;
+	margin: auto;
+	background-color: darkorange;
+}*/
+	
+.grupo-destaque-um{
+	margin: 1px 1px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color:#F9F462;*/
+}
+.secao1{
+	width:180px;
+	height:auto;
+	/*background-color: chocolate;*/
+}
+.secao1 img{
+	width:180px;
+} 
+
+/*----------------------SEGUNDA LISTA -----------------------*/
+
+
+.parte-dois{
+	margin-top: 5px;
+	width:99%;
+	height:auto;
+	margin: auto;
+	padding: 1px 0;
+	/*background-color: orange*/
+}
+.grupo-destaque-dois{
+	margin: 1px 1px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color:#F9F462;*/
+}
+
+.secao2{
+	width:180px;
+	height:auto;
+	/*background-color: chocolate;*/
+}
+.secao2 img{
+	width:180px;
+} 
+
+/*----------------------TERCEIRA LISTA -----------------------*/
+
+.parte-tres{
+	margin-top: 5px;
+	width:99%;
+	height:auto;
+	margin: auto;
+	padding: 1px 0;
+	/*background-color: orange*/
+}
+.grupo-destaque-tres{
+	margin: 1px 1px;
+	display: flex;
+	justify-content: space-between;
+	/*background-color:#F9F462;*/
+}
+
+.secao3{
+	width:180px;
+	height:auto;
+	/*background-color: chocolate;*/
+}
+.secao3 img{
+	width:180px;
+}
+
